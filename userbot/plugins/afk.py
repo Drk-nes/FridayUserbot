@@ -61,9 +61,9 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await event.edit(f"My Boss Is Going Afk ! And The Reason is {reason}")
+            await event.edit(f"Darknes Is Going Afk ! Reason : {reason}")
         else:
-            await event.edit(f"My Boss is Going")
+            await event.edit(f"Darknes is Going")
         await asyncio.sleep(5)
         await event.delete()
         try:
@@ -121,10 +121,10 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"**My Boss is AFK** ! \n\n**Reason** : `{reason}` \n\n**Afk Since** : {afk_since}" + \
-            f"\n\n__Kindly Leave A Message__ ! \n`He Will Reply To You Soon !`" \
+        message_to_reply = f"**Darknes is AFK** ! \n\n**Reason** : `{reason}` \n\n**Afk Since** : {afk_since}" + \
+            f"\n\n__Kindly Leave A Message__ ! \n`He May/May not Reply To You Soon !`" \
             if reason \
-            else f"**Hello, Boss Is AFK Right Now And May Be Forgot List Reason ! Any Way He Will Come Back Soon !**"
+            else f"**Hello, Darknes Is AFK Right Now And May Be Forgot List Reason ! Any Way He May Come Back Soon !**"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
