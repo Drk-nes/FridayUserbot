@@ -59,7 +59,7 @@ async def startgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully putted Duct Tape on that person's mouth")
+        await event.edit("STFU, u hab Duct Tape on your mouth now")
 
 #@command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
@@ -68,7 +68,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Removed Duct Tape from that person's mouth!")
+        await event.edit("U can spek again lond, globally")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -82,13 +82,13 @@ async def endgmute(event):
         return await event.edit("Please reply to a user or add their into the command to ungmute them.")
     chat_id = event.chat_id
     if not is_muted(userid, "gmute"):
-        return await event.edit("Duct Tape is not on this user's mouth")
+        return await event.edit("Bruh, U are not muted globally...")
     try:
         unmute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully Removed Duct Tape from that person's mouth")
+        await event.edit("U can spek again lond, globally")
         
 @command(incoming=True)
 async def watcher(event):
