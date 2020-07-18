@@ -6,14 +6,14 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://telegra.ph/file/717b3eff2ba34d1de6b98.png"
+PM_IMG = "https://telegra.ph/file/f8a80f3385e78f8ea32e2.mp4"
 pm_caption = "`Darknes' Bot iz:` **ONLINE**\n\n"
 pm_caption += "**SYSTEM STATUS**\n"
 pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
 pm_caption += "`DATABASE STATUS:` **Functional**\n"
 pm_caption += "**Current Branch** : `master`\n"
 pm_caption += "**Friday OS** : `3.14`\n"
-pm_caption += "**Current Sat** : `StarkGangSat-2.25`\n"
+pm_caption += "**Current Sat** : `Misssiiinnggg .. Fack`\n"
 pm_caption += f"**My Boss** : {DEFAULTUSER} \n"
 pm_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "**License** : [MIT Licence](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
