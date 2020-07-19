@@ -90,7 +90,7 @@ async def carbon_api(mytext):
             mytext.chat_id,
             file,
             caption=
-            "<< Here's Your Carbon Boi,\n  Carbonised By [IndianBot](https://www.github.com/indianbhaiya/IndianBot)>>",
+            "<< Here's Your Carbon Boi,\n  Carbonised By [Darknes](https://t.me/drk_nes)>>",
             force_document=True,
             reply_to=mytext.message.reply_to_msg_id,
         )
@@ -101,4 +101,5 @@ async def carbon_api(mytext):
         await mytext.delete()
         # Deleting msg
         # This part is new
+        #Credits Blue Devil And INDIANBOT
         await borg.send_message(mytext.chat_id, bf)
