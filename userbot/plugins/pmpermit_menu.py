@@ -32,14 +32,14 @@ async def _(event):
                f"{DEFAULTUSER}.\n"
                "__Let's make this smooth and let me know why you are here ! So Select A Reason And Send it's Number__\n"
                "**Choose one of the following reasons why you are here:**\n\n"
-               "`1`. To chat with my master\n"
-               "`2`. To Spam my master's Inbox.\n"
+               "`1`. To Send Nudes\n"
+               "`2`. To Send Nudes.\n"
 
-               "`3`. To enquire something\n"
-               "`4`. To request something\n")
-         ONE = ("`I Have Registered Your Request ! Don't Worry Darknes Won't Be Here Soon To Chat With You !` \n\n")
+               "`3`. To Send Nudes\n"
+               "`4`. To Send Nudes\n")
+         ONE = ("`I Have Registered Your wish to send nudes! Don't Worry Darknes Won't Be Here Soon To Chat With You !` \n\n")
          TWO = ("`Don't Spam Darknes's Inbox Gey ! You Have Been Reported Until Further Notice !`")
-         FOUR = ("`Okay ! I See You Can Request Your Demands ! Please Wait Until Darknes Approves You` !")
+         FOUR = ("`Okay ! I See You Can send female homo sapien nudes freely ! Please Wait Until Darknes Approves You` !")
          FIVE = ("`Okay. please have the basic manners as to not bother Darknes too much. If he wishes to help you, he will respond to you soon.`\n**Kindly Do not ask repeatdly else you will be blocked and reported.**")
          LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. Darknes won't respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__")
      
