@@ -23,7 +23,7 @@ CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**If You Want 
 USER_BOT_WARN_ZERO = "You Were \n`╔══╗╔╗──────╔╗──────╔╗\n║╔╗║║║──────║║──────║║\n║╚╝╚╣║╔══╦══╣║╔╦══╦═╝║\n║╔═╗║║║╔╗║╔═╣╚╝╣║═╣╔╗║\n║╚═╝║╚╣╚╝║╚═╣╔╗╣║═╣╚╝║\n╚═══╩═╩══╩══╩╝╚╩══╩══╝` \nDue To Trying To Spam Inbox Of Darknes !"
 USER_BOT_NO_WARN = ("`Hello lond ! This is` **A USERBOT**\n"
                     "`Keeps my IB safe`\n\n"
-                    "**Currently Darknes**\n"
+                    "**Currently **\n"
                     f"{DEFAULTUSER} is Busy ! Don't spam his Ib lond\n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
                     "**Send** `/start` **If You Want To Register Your Request, though it doesn't matter.**")
